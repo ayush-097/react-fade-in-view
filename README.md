@@ -1,7 +1,11 @@
 # react-fade-in-view
 
-A lightweight and easy-to-use **React fade-in animation component** using **Intersection Observer API**.  
-Perfect for landing pages, portfolios, blogs, or any content-heavy site.
+react-fade-in-view is a lightweight **React fade-in animation library**
+that triggers smooth **scroll-based animations** when elements enter the viewport
+using the **Intersection Observer API**.
+
+Ideal for **React & Next.js applications**, landing pages, portfolios,
+blogs, and content-heavy websites that need performant viewport animations.
 
 <!-- ![Demo](https://user-images.githubusercontent.com/yourusername/demo.gif) -->
 
