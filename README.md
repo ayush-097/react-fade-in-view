@@ -38,6 +38,7 @@ yarn add react-fade-in-view
 
 ```tsx
 import { FadeIn } from "react-fade-in-view";
+import "react-fade-in-view/dist/index.css";
 
 export default function App() {
   return (
