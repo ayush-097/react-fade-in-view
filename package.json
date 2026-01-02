@@ -1,0 +1,33 @@
+{
+  "name": "react-fade-in-view",
+  "version": "1.0.0",
+  "description": "Lightweight fade-in animation component using Intersection Observer",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "author": "Aayush Daboriya",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "0.17.19",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tsup": "7.2.0",
+    "typescript": "^5.0.0"
+  }
+}
