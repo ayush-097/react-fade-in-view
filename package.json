@@ -1,6 +1,6 @@
 {
   "name": "react-fade-in-view",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Lightweight fade-in animation component using Intersection Observer",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
