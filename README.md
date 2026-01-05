@@ -137,7 +137,7 @@ Support the project by buying me a coffee ☕ and helping future development.
     alt="UPI Donation QR"
     width="220"
   />
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <img
     src="https://raw.githubusercontent.com/ayush-097/react-fade-in-view/main/assets/paypal-qr.png"
     alt="PayPal Donation QR"
