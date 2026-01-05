@@ -132,7 +132,7 @@ Love using **react-fade-in-view**?
 Support the project by buying me a coffee ☕ and helping future development.
 
 <p align="center">
-   <img src="./assets/QR.png" alt="UPI Donation QR" width="220" />
+   <img src="https://raw.githubusercontent.com/ayush-097/react-fade-in-view/main/assets/QR.png" alt="UPI Donation QR" width="220" />
 </p>
 
 **UPI ID:** ayushpatel5659-1@okhdfcbank
