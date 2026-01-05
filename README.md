@@ -136,8 +136,14 @@ Support the project by buying me a coffee ☕ and helping future development.
     src="https://raw.githubusercontent.com/ayush-097/react-fade-in-view/main/assets/QR.png"
     alt="UPI Donation QR"
     width="220"
-    style="margin-right: 16px;"
   />
+</p>
+
+<p align="center"><b>UPI ID:</b> ayushpatel5659-1@okhdfcbank</p>
+
+<br />
+
+<p align="center">
   <img
     src="https://raw.githubusercontent.com/ayush-097/react-fade-in-view/main/assets/paypal-qr.png"
     alt="PayPal Donation QR"
@@ -145,7 +151,7 @@ Support the project by buying me a coffee ☕ and helping future development.
   />
 </p>
 
-**UPI ID:** ayushpatel5659-1@okhdfcbank
+<p align="center"><b>PayPal</b></p>
 
 ---
 
