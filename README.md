@@ -126,6 +126,19 @@ export default function Page() {
 
 ---
 
+## ☕ Buy Me a Coffee
+
+Love using **react-fade-in-view**?  
+Support the project by buying me a coffee ☕ and helping future development.
+
+<p align="center">
+   <img src="./assets/QR.png" alt="UPI Donation QR" width="220" />
+</p>
+
+**UPI ID:** ayushpatel5659-1@okhdfcbank
+
+---
+
 ## 📄 License
 
 MIT © Aayush Daboriya
