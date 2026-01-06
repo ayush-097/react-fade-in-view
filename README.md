@@ -20,7 +20,6 @@ blogs, and content-heavy websites that need performant viewport animations.
 - **Optional repeat:** Animate every time or just once
 - **React & Next.js compatible**
 - **TypeScript ready**
-- **No extra CSS import required**
 
 ---
 
@@ -44,7 +43,7 @@ yarn add react-fade-in-view
 import { FadeIn } from "react-fade-in-view";
 import "react-fade-in-view/dist/index.css";
 
-export default function App() {
+export default function FadeInWithChildElement() {
   return (
     <FadeIn direction="up">
       <h1>Hello World</h1>
@@ -52,7 +51,7 @@ export default function App() {
   );
 }
 
-export default function App() {
+export default function FadeInAsHTMLTag() {
   return (
     <FadeIn as="h1" direction="up">
       Hello World
@@ -123,6 +122,24 @@ export default function Page() {
   );
 }
 ```
+
+---
+
+## 🤔 Why react-fade-in-view?
+
+- Better performance than animation-heavy libraries
+- Zero runtime dependencies
+- Ideal replacement for simple Framer Motion use-cases
+- Works perfectly with SSR & Next.js
+
+---
+
+## 🔎 Keywords
+
+React fade animation, fade in on scroll React,
+Intersection Observer React animation,
+Next.js scroll animation,
+lightweight React animation library
 
 ---
 
