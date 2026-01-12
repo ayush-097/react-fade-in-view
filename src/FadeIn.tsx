@@ -2,7 +2,7 @@ import { ElementType, ReactNode, ComponentPropsWithoutRef } from "react";
 import { useInView } from "./useInView";
 import "./styles.css";
 
-type Direction = "left" | "right" | "up" | "down";
+type Direction = "left" | "right" | "up" | "down" | "fade" | "zoom";
 
 type FadeInProps<T extends ElementType> = {
   as?: T;

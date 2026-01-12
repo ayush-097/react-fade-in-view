@@ -16,7 +16,7 @@ blogs, and content-heavy websites that need performant viewport animations.
 - **Lightweight:** No extra animation libraries
 - **Intersection Observer:** Animates elements on viewport enter
 - **Simple API:** Easy to use, fully customizable
-- **Directional animations:** Up, down, left, right
+- **Directional animations:** Up, down, left, right, fade, zoom
 - **Optional repeat:** Animate every time or just once
 - **React & Next.js compatible**
 - **TypeScript ready**
@@ -69,20 +69,22 @@ export default function FadeInAsHTMLTag() {
 <FadeIn direction="right">Right Fade</FadeIn>
 <FadeIn direction="up">Up Fade</FadeIn>
 <FadeIn direction="down">Down Fade</FadeIn>
+<FadeIn direction="fade">Fade Only</FadeIn>
+<FadeIn direction="zoom">Zoom In</FadeIn>
 ```
 
 ---
 
 ## ⚙️ Props
 
-| Prop        | Type                                  | Default | Description                                         |
-| ----------- | ------------------------------------- | ------- | --------------------------------------------------- |
-| `as`        | `React.ElementType`                   | `div`   | Element or component to render instead of `div`     |
-| `direction` | `"up" \| "down" \| "left" \| "right"` | `up`    | Fade-in animation direction                         |
-| `className` | `string`                              | `""`    | Optional custom CSS classes                         |
-| `immediate` | `boolean`                             | `false` | Animate immediately instead of waiting for viewport |
-| `children`  | `React.ReactNode`                     | —       | Content to animate                                  |
-| `...rest`   | `any`                                 | —       | Pass extra props to the rendered element            |
+| Prop        | Type                                                      | Default | Description                                         |
+| ----------- | --------------------------------------------------------- | ------- | --------------------------------------------------- |
+| `as`        | `React.ElementType`                                       | `div`   | Element or component to render instead of `div`     |
+| `direction` | `"up" \| "down" \| "left" \| "right" \| "fade" \| "zoom"` | `up`    | Animation style / direction                         |
+| `className` | `string`                                                  | `""`    | Optional custom CSS classes                         |
+| `immediate` | `boolean`                                                 | `false` | Animate immediately instead of waiting for viewport |
+| `children`  | `React.ReactNode`                                         | —       | Content to animate                                  |
+| `...rest`   | `any`                                                     | —       | Pass extra props to the rendered element            |
 
 ---
 

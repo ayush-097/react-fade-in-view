@@ -1,7 +1,7 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 import { ElementType, ReactNode, ComponentPropsWithoutRef } from 'react';
 
-type Direction = "left" | "right" | "up" | "down";
+type Direction = "left" | "right" | "up" | "down" | "fade" | "zoom";
 type FadeInProps<T extends ElementType> = {
     as?: T;
     direction?: Direction;
